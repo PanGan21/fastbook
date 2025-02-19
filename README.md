@@ -21,6 +21,14 @@ You can open any chapter of the book in Colab by clicking on one of these links:
 
 If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's difficult for reviewers to know which corrections have already been made. Thank you.)
 
+## Vs Code environment
+- Create a virtual environemnt: `python -m venv .venv`
+- Activate the virtual environment: `source .venv/bin/activate`
+- Install ipykernel: `pip install ipykernel`
+- Install kernel: `ipython kernel install --user --name=.venv`
+- Install updated requirements: `pip install -r requirements.txt`
+- Install other dependencies similar to anaconda environment: `pip install fastbook fastai "numpy<2" torch torchvision`
+
 ## Citations
 
 If you wish to cite the book, you may use the following:
